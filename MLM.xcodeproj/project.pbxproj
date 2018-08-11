@@ -3,10 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807507920D380BB001C5224 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807507820D380BB001C5224 /* LoginViewController.swift */; };
+		181C53FB20D3DB33001D7AD6 /* SlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C53FA20D3DB33001D7AD6 /* SlideCollectionViewCell.swift */; };
+		181F751820D2981D00B3F925 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F751720D2981D00B3F925 /* secondViewController.swift */; };
+		181F751A20D29A3100B3F925 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F751920D29A3100B3F925 /* thirdViewController.swift */; };
+		1830EDF320E0C3D900CA0A90 /* NewRegistration1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830EDF220E0C3D900CA0A90 /* NewRegistration1ViewController.swift */; };
+		18366D2820FF506200870226 /* TestAccessModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366D2720FF506200870226 /* TestAccessModifierViewController.swift */; };
+		186F9CE020FDF15F00B9C191 /* addMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F9CDF20FDF15F00B9C191 /* addMemberViewController.swift */; };
+		18CE328F20D4EDE20070F3B6 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE328E20D4EDE20070F3B6 /* NewRegistrationViewController.swift */; };
+		18CE6EDA20E3AC7700122BE7 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE6ED920E3AC7700122BE7 /* VerifyOTPViewController.swift */; };
+		18D4E5A720E4BA9C0056C7B5 /* MemberPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4E5A620E4BA9C0056C7B5 /* MemberPanelViewController.swift */; };
+		18D4E5A920E4C4E60056C7B5 /* CheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4E5A820E4C4E60056C7B5 /* CheckConnection.swift */; };
+		18D4E5AB20E4C5290056C7B5 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4E5AA20E4C5290056C7B5 /* iOSDevCenters+GIF.swift */; };
+		18D4E5AD20E4C5E60056C7B5 /* abc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D4E5AC20E4C5E50056C7B5 /* abc.gif */; };
+		18D4E5AF20E4CA340056C7B5 /* preloader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D4E5AE20E4CA340056C7B5 /* preloader.gif */; };
+		18D5B733210056C600DA60BA /* MLM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D5B731210056C600DA60BA /* MLM.xcdatamodeld */; };
+		18DD863220EA382E0007F09B /* SecurityDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD863120EA382E0007F09B /* SecurityDocumentsViewController.swift */; };
+		18DD863420EA4D5E0007F09B /* UploadPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD863320EA4D5E0007F09B /* UploadPicViewController.swift */; };
+		18E0B39A20E9FF4800774242 /* bankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B39920E9FF4800774242 /* bankDetailsViewController.swift */; };
+		18E0B39E20EA077200774242 /* KYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B39D20EA077200774242 /* KYCViewController.swift */; };
+		18ECD91420F9E0CF004A7839 /* MyProfileParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECD91320F9E0CF004A7839 /* MyProfileParentViewController.swift */; };
+		18F3EEE620F8895C00D7DBF3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18F3EEE520F8895C00D7DBF3 /* Podfile */; };
+		18F3EEE920F88AC600D7DBF3 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEE820F88AC600D7DBF3 /* EditProfile.swift */; };
+		18F3EEEB20F88C7B00D7DBF3 /* BasicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEEA20F88C7B00D7DBF3 /* BasicDetailsViewController.swift */; };
+		18F3EEED20F88C9800D7DBF3 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEEC20F88C9800D7DBF3 /* UserDetailsViewController.swift */; };
+		18F3EEEF20F88CB000D7DBF3 /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEEE20F88CB000D7DBF3 /* BankDetailsViewController.swift */; };
+		18F3EEF120F88CD700D7DBF3 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3EEF020F88CD700D7DBF3 /* UploadPhotoViewController.swift */; };
+		371B07A44CCC1F7F0A1F31C6 /* Pods_MLM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8970D9FC453F6AE8CF594E56 /* Pods_MLM.framework */; };
 		8B634AA320D235F2003DABE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B634AA220D235F2003DABE4 /* AppDelegate.swift */; };
 		8B634AA520D235F2003DABE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B634AA420D235F2003DABE4 /* ViewController.swift */; };
 		8B634AA820D235F2003DABE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B634AA620D235F2003DABE4 /* Main.storyboard */; };
@@ -14,6 +41,7 @@
 		8B634AAD20D235FD003DABE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B634AAB20D235FD003DABE4 /* LaunchScreen.storyboard */; };
 		8B634AB820D235FD003DABE4 /* MLMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B634AB720D235FD003DABE4 /* MLMTests.swift */; };
 		8B634AC320D235FD003DABE4 /* MLMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B634AC220D235FD003DABE4 /* MLMUITests.swift */; };
+		8B634AD120D23D64003DABE4 /* DummyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B634AD020D23D64003DABE4 /* DummyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1807507820D380BB001C5224 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		181C53FA20D3DB33001D7AD6 /* SlideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		181F751720D2981D00B3F925 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		181F751920D29A3100B3F925 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		1830EDF220E0C3D900CA0A90 /* NewRegistration1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistration1ViewController.swift; sourceTree = "<group>"; };
+		18366D2720FF506200870226 /* TestAccessModifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAccessModifierViewController.swift; sourceTree = "<group>"; };
+		186F9CDF20FDF15F00B9C191 /* addMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMemberViewController.swift; sourceTree = "<group>"; };
+		18CE328E20D4EDE20070F3B6 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
+		18CE6ED920E3AC7700122BE7 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		18D4E5A620E4BA9C0056C7B5 /* MemberPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPanelViewController.swift; sourceTree = "<group>"; };
+		18D4E5A820E4C4E60056C7B5 /* CheckConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckConnection.swift; sourceTree = "<group>"; };
+		18D4E5AA20E4C5290056C7B5 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		18D4E5AC20E4C5E50056C7B5 /* abc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = abc.gif; sourceTree = "<group>"; };
+		18D4E5AE20E4CA340056C7B5 /* preloader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preloader.gif; sourceTree = "<group>"; };
+		18D5B732210056C600DA60BA /* MLM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLM.xcdatamodel; sourceTree = "<group>"; };
+		18DD863120EA382E0007F09B /* SecurityDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityDocumentsViewController.swift; sourceTree = "<group>"; };
+		18DD863320EA4D5E0007F09B /* UploadPicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPicViewController.swift; sourceTree = "<group>"; };
+		18E0B39920E9FF4800774242 /* bankDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bankDetailsViewController.swift; sourceTree = "<group>"; };
+		18E0B39D20EA077200774242 /* KYCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCViewController.swift; sourceTree = "<group>"; };
+		18ECD91320F9E0CF004A7839 /* MyProfileParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileParentViewController.swift; sourceTree = "<group>"; };
+		18F3EEE520F8895C00D7DBF3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18F3EEE820F88AC600D7DBF3 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		18F3EEEA20F88C7B00D7DBF3 /* BasicDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailsViewController.swift; sourceTree = "<group>"; };
+		18F3EEEC20F88C9800D7DBF3 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		18F3EEEE20F88CB000D7DBF3 /* BankDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
+		18F3EEF020F88CD700D7DBF3 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		4517BB8C0B22B9BF8205A75E /* Pods-MLM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLM/Pods-MLM.release.xcconfig"; sourceTree = "<group>"; };
+		8970D9FC453F6AE8CF594E56 /* Pods_MLM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B634A9F20D235F1003DABE4 /* MLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B634AA220D235F2003DABE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B634AA420D235F2003DABE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +103,8 @@
 		8B634ABE20D235FD003DABE4 /* MLMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B634AC220D235FD003DABE4 /* MLMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLMUITests.swift; sourceTree = "<group>"; };
 		8B634AC420D235FD003DABE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B634AD020D23D64003DABE4 /* DummyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD93815073688C7FBB2D80D8 /* Pods-MLM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLM/Pods-MLM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371B07A44CCC1F7F0A1F31C6 /* Pods_MLM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +133,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1200A3F2451455ADC99A9D65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8970D9FC453F6AE8CF594E56 /* Pods_MLM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D4E5A520E4B95D0056C7B5 /* MemberPanel */ = {
+			isa = PBXGroup;
+			children = (
+				18D4E5A620E4BA9C0056C7B5 /* MemberPanelViewController.swift */,
+				186F9CDF20FDF15F00B9C191 /* addMemberViewController.swift */,
+				18ECD91220F9DCF3004A7839 /* MyProfile */,
+				18F3EEE720F889E300D7DBF3 /* EditProfile */,
+			);
+			path = MemberPanel;
+			sourceTree = "<group>";
+		};
+		18ECD91220F9DCF3004A7839 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				18ECD91320F9E0CF004A7839 /* MyProfileParentViewController.swift */,
+				18DD863320EA4D5E0007F09B /* UploadPicViewController.swift */,
+				18DD863120EA382E0007F09B /* SecurityDocumentsViewController.swift */,
+				18E0B39D20EA077200774242 /* KYCViewController.swift */,
+				18E0B39920E9FF4800774242 /* bankDetailsViewController.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		18F3EEE720F889E300D7DBF3 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				18F3EEE820F88AC600D7DBF3 /* EditProfile.swift */,
+				18F3EEEA20F88C7B00D7DBF3 /* BasicDetailsViewController.swift */,
+				18F3EEEC20F88C9800D7DBF3 /* UserDetailsViewController.swift */,
+				18F3EEEE20F88CB000D7DBF3 /* BankDetailsViewController.swift */,
+				18F3EEF020F88CD700D7DBF3 /* UploadPhotoViewController.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		2BE086F0FE57AEFC67C28ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD93815073688C7FBB2D80D8 /* Pods-MLM.debug.xcconfig */,
+				4517BB8C0B22B9BF8205A75E /* Pods-MLM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B634A9620D235F1003DABE4 = {
 			isa = PBXGroup;
 			children = (
+				18F3EEE520F8895C00D7DBF3 /* Podfile */,
 				8B634AA120D235F2003DABE4 /* MLM */,
 				8B634AB620D235FD003DABE4 /* MLMTests */,
 				8B634AC120D235FD003DABE4 /* MLMUITests */,
 				8B634AA020D235F1003DABE4 /* Products */,
+				2BE086F0FE57AEFC67C28ABA /* Pods */,
+				1200A3F2451455ADC99A9D65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +212,26 @@
 			isa = PBXGroup;
 			children = (
 				8B634AA220D235F2003DABE4 /* AppDelegate.swift */,
-				8B634AA420D235F2003DABE4 /* ViewController.swift */,
 				8B634AA620D235F2003DABE4 /* Main.storyboard */,
+				8B634AA420D235F2003DABE4 /* ViewController.swift */,
 				8B634AA920D235FD003DABE4 /* Assets.xcassets */,
 				8B634AAB20D235FD003DABE4 /* LaunchScreen.storyboard */,
+				8B634AD020D23D64003DABE4 /* DummyCollectionViewCell.swift */,
+				18D4E5AA20E4C5290056C7B5 /* iOSDevCenters+GIF.swift */,
+				18D4E5AC20E4C5E50056C7B5 /* abc.gif */,
 				8B634AAE20D235FD003DABE4 /* Info.plist */,
+				18D4E5A820E4C4E60056C7B5 /* CheckConnection.swift */,
+				181F751720D2981D00B3F925 /* secondViewController.swift */,
+				181F751920D29A3100B3F925 /* thirdViewController.swift */,
+				18D4E5AE20E4CA340056C7B5 /* preloader.gif */,
+				1807507820D380BB001C5224 /* LoginViewController.swift */,
+				181C53FA20D3DB33001D7AD6 /* SlideCollectionViewCell.swift */,
+				18CE328E20D4EDE20070F3B6 /* NewRegistrationViewController.swift */,
+				1830EDF220E0C3D900CA0A90 /* NewRegistration1ViewController.swift */,
+				18CE6ED920E3AC7700122BE7 /* VerifyOTPViewController.swift */,
+				18D5B731210056C600DA60BA /* MLM.xcdatamodeld */,
+				18D4E5A520E4B95D0056C7B5 /* MemberPanel */,
+				18366D2720FF506200870226 /* TestAccessModifierViewController.swift */,
 			);
 			path = MLM;
 			sourceTree = "<group>";
@@ -132,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B634AC720D235FD003DABE4 /* Build configuration list for PBXNativeTarget "MLM" */;
 			buildPhases = (
+				127AC699EE1A473CA863D4EB /* [CP] Check Pods Manifest.lock */,
 				8B634A9B20D235F1003DABE4 /* Sources */,
 				8B634A9C20D235F1003DABE4 /* Frameworks */,
 				8B634A9D20D235F1003DABE4 /* Resources */,
+				599038B5B95DA0AC70DE6749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,19 +324,22 @@
 				TargetAttributes = {
 					8B634A9E20D235F1003DABE4 = {
 						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
 					};
 					8B634AB220D235FD003DABE4 = {
 						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 8B634A9E20D235F1003DABE4;
 					};
 					8B634ABD20D235FD003DABE4 = {
 						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 8B634A9E20D235F1003DABE4;
 					};
 				};
 			};
 			buildConfigurationList = 8B634A9A20D235F1003DABE4 /* Build configuration list for PBXProject "MLM" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,9 +363,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F3EEE620F8895C00D7DBF3 /* Podfile in Resources */,
 				8B634AAD20D235FD003DABE4 /* LaunchScreen.storyboard in Resources */,
+				18D4E5AD20E4C5E60056C7B5 /* abc.gif in Resources */,
 				8B634AAA20D235FD003DABE4 /* Assets.xcassets in Resources */,
 				8B634AA820D235F2003DABE4 /* Main.storyboard in Resources */,
+				18D4E5AF20E4CA340056C7B5 /* preloader.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +388,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		127AC699EE1A473CA863D4EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599038B5B95DA0AC70DE6749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLM/Pods-MLM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLM/Pods-MLM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B634A9B20D235F1003DABE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1807507920D380BB001C5224 /* LoginViewController.swift in Sources */,
+				1830EDF320E0C3D900CA0A90 /* NewRegistration1ViewController.swift in Sources */,
+				18D4E5AB20E4C5290056C7B5 /* iOSDevCenters+GIF.swift in Sources */,
+				18F3EEEF20F88CB000D7DBF3 /* BankDetailsViewController.swift in Sources */,
+				181C53FB20D3DB33001D7AD6 /* SlideCollectionViewCell.swift in Sources */,
+				18CE328F20D4EDE20070F3B6 /* NewRegistrationViewController.swift in Sources */,
+				18E0B39E20EA077200774242 /* KYCViewController.swift in Sources */,
+				18DD863420EA4D5E0007F09B /* UploadPicViewController.swift in Sources */,
+				18D5B733210056C600DA60BA /* MLM.xcdatamodeld in Sources */,
+				186F9CE020FDF15F00B9C191 /* addMemberViewController.swift in Sources */,
+				18ECD91420F9E0CF004A7839 /* MyProfileParentViewController.swift in Sources */,
+				181F751820D2981D00B3F925 /* secondViewController.swift in Sources */,
+				8B634AD120D23D64003DABE4 /* DummyCollectionViewCell.swift in Sources */,
+				18F3EEEB20F88C7B00D7DBF3 /* BasicDetailsViewController.swift in Sources */,
+				18F3EEED20F88C9800D7DBF3 /* UserDetailsViewController.swift in Sources */,
+				181F751A20D29A3100B3F925 /* thirdViewController.swift in Sources */,
+				18DD863220EA382E0007F09B /* SecurityDocumentsViewController.swift in Sources */,
+				18366D2820FF506200870226 /* TestAccessModifierViewController.swift in Sources */,
+				18F3EEF120F88CD700D7DBF3 /* UploadPhotoViewController.swift in Sources */,
 				8B634AA520D235F2003DABE4 /* ViewController.swift in Sources */,
+				18D4E5A720E4BA9C0056C7B5 /* MemberPanelViewController.swift in Sources */,
+				18D4E5A920E4C4E60056C7B5 /* CheckConnection.swift in Sources */,
 				8B634AA320D235F2003DABE4 /* AppDelegate.swift in Sources */,
+				18CE6EDA20E3AC7700122BE7 /* VerifyOTPViewController.swift in Sources */,
+				18E0B39A20E9FF4800774242 /* bankDetailsViewController.swift in Sources */,
+				18F3EEE920F88AC600D7DBF3 /* EditProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,24 +620,22 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		8B634AC820D235FD003DABE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD93815073688C7FBB2D80D8 /* Pods-MLM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLM;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.WeMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,16 +644,15 @@
 		};
 		8B634AC920D235FD003DABE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4517BB8C0B22B9BF8205A75E /* Pods-MLM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLM;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.WeMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,11 +667,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -491,11 +684,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -511,11 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLMUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -531,11 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UUREU9E4TX;
 				INFOPLIST_FILE = MLMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.senovTech.MLMUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -584,6 +765,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D5B731210056C600DA60BA /* MLM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D5B732210056C600DA60BA /* MLM.xcdatamodel */,
+			);
+			currentVersion = 18D5B732210056C600DA60BA /* MLM.xcdatamodel */;
+			path = MLM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8B634A9720D235F1003DABE4 /* Project object */;
 }
